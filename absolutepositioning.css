@@ -1,0 +1,35 @@
+div {
+    background-color: red;
+    height: 30px; width: 30px;
+    position: absolute;
+}
+
+body {
+    position: relative;
+    height: 150vh;
+    margin: 0;
+}
+
+#top-right {
+    top: 0px; right: 0px;
+}
+
+#bottom-left {
+    bottom: 0; left: 0;
+}
+
+#top-left {
+    left: 0; top: 0;
+}
+
+#bottom-right {
+    bottom: 0; right: 0;
+}
+
+#center {
+    top: 50%; left: 50%; 
+    width: 300px; height: 100px;
+    background-color: rgb(38, 106, 231);
+    position: fixed;
+    margin: -50px 0 0 -150px;
+} 
